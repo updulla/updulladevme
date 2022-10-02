@@ -19,7 +19,7 @@ const HomeLight = () => {
   document.body.classList.add("light");
 
   return (
-    <div className="green">
+    <div className="goldenrod">
       <div className="demo-sticker">
         <a href="/home-dark">
           <i className="fa fa-moon-o" aria-hidden="true"></i>

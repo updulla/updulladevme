@@ -1,12 +1,20 @@
 import React from "react";
 
 const skillsContent = [
-  { skillClass: "p78", skillPercent: "78", skillName: "HTML" },
-  { skillClass: "p27", skillPercent: "27", skillName: "JAVASCRIPT" },
-  { skillClass: "p82", skillPercent: "82", skillName: "CSS" },
-  { skillClass: "p45", skillPercent: "45", skillName: "PHP" },
-  { skillClass: "p95", skillPercent: "95", skillName: "WORDPRESS" },
-  { skillClass: "p12", skillPercent: "12", skillName: "VUE.js" },
+  { skillClass: "p85", skillPercent: "85", skillName: "HTML5" },
+  { skillClass: "p90", skillPercent: "90", skillName: "CSS3" },
+  { skillClass: "p30", skillPercent: "30", skillName: "Javascript" },
+  { skillClass: "p40", skillPercent: "40", skillName: "PHP" },
+  { skillClass: "p30", skillPercent: "30", skillName: "Vue.js" },
+  { skillClass: "p25", skillPercent: "25", skillName: "Python" },
+  { skillClass: "p75", skillPercent: "75", skillName: "Git" },
+  { skillClass: "p90", skillPercent: "90", skillName: "Linux System" },
+  { skillClass: "p90", skillPercent: "90", skillName: "UML Modeling" },
+  { skillClass: "p80", skillPercent: "80", skillName: "Raspberry Pi" },
+  { skillClass: "p85", skillPercent: "85", skillName: "Wordpress / Woocommerce" },
+  { skillClass: "p45", skillPercent: "45", skillName: "Web Penetration Testing" },
+  { skillClass: "p50", skillPercent: "50", skillName: "Advertising (Facebook Ads/Tiktok Ads ..)" },
+  { skillClass: "p70", skillPercent: "70", skillName: "Point of Sale System & App" },
 ];
 
 const Skills = () => {

@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import Modal from "react-modal";
 import DirectionReveal from "direction-reveal";
-import ModalOneContent from "./modal/ModalOneContent";
+import ModalOneContent from "./modal/ModalEightContent";
 import ModalTwoContent from "./modal/ModalTwoContent";
 import ModalThreeContent from "./modal/ModalThreeContent";
 import ModalFourContent from "./modal/ModalFourContent";
 import ModalFiveContent from "./modal/ModalFiveContent";
 import ModalSixContent from "./modal/ModalSixContent";
 import ModalSevenContent from "./modal/ModalSevenContent";
-import ModalEightContent from "./modal/ModalEightContent";
+import ModalEightContent from "./modal/ModalOneContent";
 import ModalNineContent from "./modal/ModalNineContent";
 
 const PortfolioLight = () => {
@@ -69,9 +69,9 @@ const PortfolioLight = () => {
     <ul className="row grid">
       <li className="direction-reveal">
         <figure className="direction-reveal__card" onClick={toggleModalOne}>
-          <img src="img/projects/project-1.jpg" alt="Portolio" />
+          <img src="img/projects/proj2.png" alt="Portolio" />
           <div className=" direction-reveal__overlay direction-reveal__anim--enter">
-            <span className="direction-reveal__title">Image Project</span>
+            <span className="direction-reveal__title">WEBSITE FOR FAST FOOD</span>
           </div>
         </figure>
 
@@ -102,9 +102,9 @@ const PortfolioLight = () => {
       {/* <!-- Portfolio Item Starts --> */}
       <li className="direction-reveal">
         <figure className="direction-reveal__card" onClick={toggleModalTwo}>
-          <img src="img/projects/project-2.jpg" alt="Portolio" />
+          <img src="img/projects/proj5.png" alt="Portolio" />
           <div className=" direction-reveal__overlay direction-reveal__anim--enter">
-            <span className="direction-reveal__title">Youtube Project</span>
+            <span className="direction-reveal__title">BLOG FOR CRYPTO NEWS</span>
           </div>
         </figure>
 
@@ -135,7 +135,7 @@ const PortfolioLight = () => {
       {/* <!-- Portfolio Item Starts --> */}
       <li className="direction-reveal">
         <figure className="direction-reveal__card" onClick={toggleModalThree}>
-          <img src="img/projects/project-3.jpg" alt="Portolio" />
+          <img src="img/projects/proj8.png" alt="Portolio" />
           <div className=" direction-reveal__overlay direction-reveal__anim--enter">
             <span className="direction-reveal__title">Slider Project</span>
           </div>
@@ -168,9 +168,9 @@ const PortfolioLight = () => {
       {/* <!-- Portfolio Item Starts --> */}
       <li className="direction-reveal">
         <figure className="direction-reveal__card" onClick={toggleModalFour}>
-          <img src="img/projects/project-4.jpg" alt="Portolio" />
+          <img src="img/projects/proj3.png" alt="Portolio" />
           <div className="direction-reveal__overlay direction-reveal__anim--enter">
-            <span className="direction-reveal__title">Local Video Project</span>
+            <span className="direction-reveal__title">PERSONAL WEBSITE</span>
           </div>
         </figure>
 
@@ -201,9 +201,9 @@ const PortfolioLight = () => {
       {/* <!-- Portfolio Item Starts --> */}
       <li className="direction-reveal">
         <figure className="direction-reveal__card" onClick={toggleModalFive}>
-          <img src="img/projects/project-5.jpg" alt="Portolio" />
+          <img src="img/projects/proj7.png" alt="Portolio" />
           <div className="direction-reveal__overlay direction-reveal__anim--enter">
-            <span className="direction-reveal__title">Saas App Project</span>
+            <span className="direction-reveal__title">SOCIAL MEDIA POSTER</span>
           </div>
         </figure>
 
@@ -234,9 +234,9 @@ const PortfolioLight = () => {
       {/* <!-- Portfolio Item Starts --> */}
       <li className="direction-reveal">
         <figure className="direction-reveal__card" onClick={toggleModalSix}>
-          <img src="img/projects/project-6.jpg" alt="Portolio" />
+          <img src="img/projects/proj6.png" alt="Portolio" />
           <div className=" direction-reveal__overlay direction-reveal__anim--enter">
-            <span className="direction-reveal__title">Image Project</span>
+            <span className="direction-reveal__title">MENU ON TV</span>
           </div>
         </figure>
 
@@ -267,9 +267,9 @@ const PortfolioLight = () => {
       {/* <!-- Portfolio Item Starts --> */}
       <li className="direction-reveal">
         <figure className="direction-reveal__card" onClick={toggleModalSeven}>
-          <img src="img/projects/project-7.jpg" alt="Portolio" />
+          <img src="img/projects/proj4.png" alt="Portolio" />
           <div className=" direction-reveal__overlay direction-reveal__anim--enter">
-            <span className="direction-reveal__title">Facebook Profile</span>
+            <span className="direction-reveal__title">ECOMMERCE WEBSITE</span>
           </div>
         </figure>
 
@@ -300,9 +300,9 @@ const PortfolioLight = () => {
       {/* <!-- Portfolio Item Starts --> */}
       <li className="direction-reveal">
         <figure className="direction-reveal__card" onClick={toggleModalEight}>
-          <img src="img/projects/project-8.jpg" alt="Portolio" />
+          <img src="img/projects/proj9.png" alt="Portolio" />
           <div className="direction-reveal__overlay direction-reveal__anim--enter">
-            <span className="direction-reveal__title">Dribbble Profile</span>
+            <span className="direction-reveal__title">BAKERY WEBSITE</span>
           </div>
           {/* Start ModalEightContent */}
           <Modal
@@ -332,9 +332,9 @@ const PortfolioLight = () => {
       {/* <!-- Portfolio Item Starts --> */}
       <li className="direction-reveal">
         <figure className="direction-reveal__card" onClick={toggleModalNine}>
-          <img src="img/projects/project-9.jpg" alt="Portolio" />
+          <img src="img/projects/proj10.png" alt="Portolio" />
           <div className="direction-reveal__overlay direction-reveal__anim--enter">
-            <span className="direction-reveal__title">Behance Project</span>
+            <span className="direction-reveal__title">BUSINESS CARD</span>
           </div>
         </figure>
 

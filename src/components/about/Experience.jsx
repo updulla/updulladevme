@@ -2,24 +2,22 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "   2020 - Present",
-    position: " Freelancer",
-    compnayName: "Fiverr",
-    details: ``,
+    year: "   2014 - 2015",
+    position: "BAC",
+    compnayName: "Bachelor of Science SVT",
+    details: `Lycée ALWAHDA, Tiznit`,
   },
   {
-    year: "2013 - 2018",
-    position: " UI/UX Designer",
-    compnayName: "Themeforest",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
+    year: "2015 - 2019",
+    position: " Licence",
+    compnayName: "Bachelor of Mathematics & Computer Sciences",
+    details: `Faculté polydisciplinaire IBN ZOHR, Ouarzazate`,
   },
   {
-    year: "2005 - 2013",
-    position: "Consultant",
-    compnayName: "Videohive",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
+    year: "2019",
+    position: "Last Study's Project",
+    compnayName: "Python",
+    details: `Smart Personal Assistant using Raspberry Pi3`,
   },
 ];
 

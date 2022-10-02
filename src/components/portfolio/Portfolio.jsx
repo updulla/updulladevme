@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import Modal from "react-modal";
-import ModalOneContent from "./modal/ModalOneContent";
+import ModalOneContent from "./modal/ModalEightContent";
 import ModalTwoContent from "./modal/ModalTwoContent";
 import ModalThreeContent from "./modal/ModalThreeContent";
 import ModalFourContent from "./modal/ModalFourContent";
 import ModalFiveContent from "./modal/ModalFiveContent";
 import ModalSixContent from "./modal/ModalSixContent";
 import ModalSevenContent from "./modal/ModalSevenContent";
-import ModalEightContent from "./modal/ModalEightContent";
+import ModalEightContent from "./modal/ModalOneContent";
 import ModalNineContent from "./modal/ModalNineContent";
 
 const Portfolio = () => {
@@ -53,11 +53,7 @@ const Portfolio = () => {
   return (
     <Tabs>
       <TabList className="portfolio-tab-list">
-        <Tab>ALL</Tab>
-        <Tab>LOGO</Tab>
-        <Tab>VIDEO</Tab>
-        <Tab>GRAPHIC DESIGN</Tab>
-        <Tab>MOCKUP</Tab>
+        <Tab>MY LAST WORKS ...</Tab>
       </TabList>
 
       <div className="portfolio-tab-content">
@@ -69,9 +65,9 @@ const Portfolio = () => {
               data-aos-delay="0"
             >
               <figure onClick={toggleModalOne}>
-                <img src="img/projects/project-1.jpg" alt="Portolio" />
-                <div className=" hover-content-wrapper">
-                  <span className="content-title">Mockup Project</span>
+                <img src="img/projects/proj2.png" alt="Portolio" />
+                <div className="hover-content-wrapper">
+                  <span className="content-title">WEBSITE FOR FAST FOOD</span>
                 </div>
               </figure>
 
@@ -106,9 +102,9 @@ const Portfolio = () => {
               data-aos-delay="100"
             >
               <figure onClick={toggleModalTwo}>
-                <img src="img/projects/project-2.jpg" alt="Portolio" />
+                <img src="img/projects/proj5.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
-                  <span className="content-title"> Youtube Project</span>
+                  <span className="content-title">BLOG FOR CRYPTO NEWS</span>
                 </div>
               </figure>
 
@@ -143,9 +139,9 @@ const Portfolio = () => {
               data-aos-delay="200"
             >
               <figure onClick={toggleModalThree}>
-                <img src="img/projects/project-3.jpg" alt="Portolio" />
+                <img src="img/projects/proj8.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
-                  <span className="content-title"> Slider Project</span>
+                  <span className="content-title">SCOLAR CERTIFICAT</span>
                 </div>
               </figure>
 
@@ -184,9 +180,9 @@ const Portfolio = () => {
                 className="direction-reveal__card"
                 onClick={toggleModalFour}
               >
-                <img src="img/projects/project-4.jpg" alt="Portolio" />
+                <img src="img/projects/proj3.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
-                  <span className="content-title"> Local Video Project</span>
+                  <span className="content-title">PERSONAL WEBSITE</span>
                 </div>
               </figure>
 
@@ -225,9 +221,9 @@ const Portfolio = () => {
                 className="direction-reveal__card"
                 onClick={toggleModalFive}
               >
-                <img src="img/projects/project-5.jpg" alt="Portolio" />
+                <img src="img/projects/proj7.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
-                  <span className="content-title"> Saas App Project</span>
+                  <span className="content-title"> SOCIAL MEDIA POSTER</span>
                 </div>
               </figure>
 
@@ -266,9 +262,9 @@ const Portfolio = () => {
                 className="direction-reveal__card"
                 onClick={toggleModalSix}
               >
-                <img src="img/projects/project-6.jpg" alt="Portolio" />
+                <img src="img/projects/proj6.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
-                  <span className="content-title"> Mockup Project</span>
+                  <span className="content-title"> MENU ON TV</span>
                 </div>
               </figure>
 
@@ -307,9 +303,9 @@ const Portfolio = () => {
                 className="direction-reveal__card"
                 onClick={toggleModalSeven}
               >
-                <img src="img/projects/project-7.jpg" alt="Portolio" />
+                <img src="img/projects/proj4.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
-                  <span className="content-title"> Facebook Profile</span>
+                  <span className="content-title">ECOMMERCE WEBSITE</span>
                 </div>
               </figure>
 
@@ -348,10 +344,10 @@ const Portfolio = () => {
                 className="direction-reveal__card"
                 onClick={toggleModalEight}
               >
-                <img src="img/projects/project-8.jpg" alt="Portolio" />
+                <img src="img/projects/proj9.png" alt="Portolio" />
 
                 <div className=" hover-content-wrapper">
-                  <span className="content-title"> Dribbble Profile</span>
+                  <span className="content-title"> BAKERY WEBSITE</span>
                 </div>
               </figure>
               {/* Start ModalEightContent */}
@@ -389,9 +385,9 @@ const Portfolio = () => {
                 className="direction-reveal__card"
                 onClick={toggleModalNine}
               >
-                <img src="img/projects/project-9.jpg" alt="Portolio" />
+                <img src="img/projects/proj10.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
-                  <span className="content-title"> Behance Project</span>
+                  <span className="content-title">BUSINESS CARD</span>
                 </div>
               </figure>
 
