@@ -8,7 +8,7 @@ const personalInfoContent = [
   { meta: "Freelance", metaInfo: "Available" },
   { meta: "Address", metaInfo: "Tiznit, Morocco" },
   { meta: "phone", metaInfo: "+212 643 80 28 04" },
-  { meta: "Email", metaInfo: "contact@updulladev.me" },
+  { meta: "Email", metaInfo: "abdullah.boussount@gmail.com" },
   { meta: "Skype", metaInfo: " abdullah.boussount" },
   { meta: "langages", metaInfo: "Amazigh, Arabic, French, English" },
 ];
